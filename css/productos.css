@@ -1,0 +1,59 @@
+.contenedor-grillas{
+    max-width: 1000px;
+    margin: auto;
+}
+.productos-grillas{
+    text-align: center;
+    
+}
+.productos-grillas .titulo{
+    text-align: center;
+    font-size: 25px;
+    padding: 50px 0 ;
+}
+
+.img-grillas1 img, .img-grillas2 img{
+    text-align: center;
+    box-shadow: 8px 7px 6px 0px #10110f;
+    object-fit: cover;
+}
+.texto-grillas1 .texto-grillas2, h1, p{
+    display: flex;
+    text-align: justify;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+    padding: 20px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 18px;
+    
+}
+.productos-grillas .producto-grillas{
+    display: grid;
+    padding: 10px;
+    margin: 10px auto;
+    border-bottom: 3px solid var(--green-color);
+    grid-template-columns: repeat(3,1fr);
+    grid-template-areas: 
+    ". titulo . "
+    "img-grillas1 texto-grillas1 texto-grillas1"
+    " texto-grillas2 texto-grillas2 img-grillas2";
+}
+
+.titulo{
+    grid-area: titulo;
+}
+
+.img-grillas1{
+    grid-area: img-grillas1;
+}
+.texto-grillas1{
+    grid-area: texto-grillas1;
+}
+.img-grillas2{
+    grid-area: img-grillas2;
+}
+.texto-grillas2{
+    grid-area: texto-grillas2;
+}

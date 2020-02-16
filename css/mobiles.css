@@ -1,0 +1,19 @@
+@media screen and (max-width:768px){
+    
+    .main3 .menciones, .main2 .mostrador, .main .productos{
+        display: inline-block;
+        
+    }
+
+}
+@media screen and (max-width:500px){
+    
+    .main h1{
+        font-size: 90%;
+    }
+    header, footer{
+        display: block;
+        text-align: center;
+    }
+
+}

@@ -1,0 +1,81 @@
+
+.contenedor-ventas{
+    max-width: 1000px;
+    margin: 50px auto;
+    
+}
+.contenedor-ventas h1{
+    margin: 30px auto;
+    text-align: center;
+}
+
+.ventas{
+    display: grid;
+    margin: 0 auto;
+    max-width: 900px;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-areas: 
+    " venta-producto modulo-pago";
+}
+
+.venta-producto{
+    grid-area: venta-producto;
+}
+.modulo-pago{
+    grid-area: modulo-pago;
+}
+.venta-producto{
+box-shadow: 0 0 9px 2px #64794f;
+border-radius: 20px ;
+    width: 400px;
+    padding: 10px;
+    text-align: center; 
+}
+.venta-producto h3{
+    padding: 10px;
+}
+.venta-producto p{
+    padding: 10px;
+    text-align: justify;
+}
+.modulo-pago{
+    box-shadow: 0 0 9px 2px #64794f;
+    border-radius: 20px ;
+    width: 400px;
+    padding: 10px;
+    
+
+}
+.modulo-pago .formulario{
+    margin: 10px ;
+    padding:10px;
+}
+.formulario label{
+    padding: 10px;
+    font-size: 15px;
+}
+.formulario input{
+   outline: none;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+.formulario .btn{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    margin: 10px auto;
+    width: 60%;
+    background: var(--green-color);
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: inset  0 -.2em #64794f;
+   
+}
+.formulario .btn:active{
+    transform: scale(.9);
+    
+}

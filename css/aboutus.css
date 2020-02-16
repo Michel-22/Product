@@ -1,0 +1,30 @@
+.contenedor-about{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 10px;
+
+}
+.contenedor-about .contenido-about{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+
+}
+
+.contenido-about .img-about img{
+    margin: 30px 10px;
+    box-shadow: -11px 12px 6px 3px #10110f
+}
+
+.contenido-about h1{
+    text-align: center;
+    padding: 10px;
+}
+.contenido-about .texto-about p{
+    text-align: justify;
+    font-size: 17px;
+    letter-spacing: 1px;
+    padding: 10px;
+    margin: 20px;
+
+}
